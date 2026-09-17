@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Slabo+13px&display=swap');
+body {
+    background-color: rgb(178, 214, 247);
+    line-height: 1.2;
+    text-align: center;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+li {
+    margin-bottom: 25px;
+}
+.curiosidades {
+    background-color: rgb(148, 163, 158);
+    border: 15px;
+    border-radius: 15px;
+    padding: 45px;
+    margin: 15px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+}
+
+nav {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    padding-inline: 5px;
+    color: rgb(160, 105, 95);
+}
+
+img {
+    max-width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
