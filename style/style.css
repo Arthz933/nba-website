@@ -10,7 +10,6 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     line-height: 2;
-    display: flex;
     text-align: center;
     align-items: center;
     max-width: 1200px;
