@@ -15,8 +15,7 @@ body {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    overflow-x: hidden;
 }
 
 @keyframes slideInLeft {
