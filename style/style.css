@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     line-height: 2;
     text-align: center;
+    align-items: center;
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
