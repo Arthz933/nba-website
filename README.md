@@ -12,7 +12,7 @@ Cada curiosidade apresentada no site conta com fontes e referências externas di
 
 ## 🛠️ Tecnologias
 
-- *Front-end:html5 e css3*
+- *Front-end: html5 e css3*
 - *Deploy:https://arthz933.github.io/nba-website/*
 
 ## 🚀 Como Rodar o Projeto
