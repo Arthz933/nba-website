@@ -13,23 +13,25 @@ body {
     text-align: center;
 }
 
-a::after {
-  content: '↗';
-  opacity: 0;
-  display: inline-block;
-  transform: translateX(-8px);
-  transition: all 0.5s ease;
+    ul.curiosidades a::after,
+    ul.fontes a::after {
+    content: '↗';
+    opacity: 0;
+    display: inline-block;
+    transform: translateX(-8px);
+    transition: all 0.5s ease;
 }
 
-a:hover::after {
-  opacity: 1;
-  transform: translateX(4px); /* A seta aparece e anda para a direita */
+ul.curiosidades a:hover::after,
+ul.fontes a:hover::after {
+    opacity: 1;
+    transform: translateX(4px); /* A seta aparece e anda para a direita */
 }
 
-a:hover {
-    color: rgb(160, 105, 95)
+ul.curiosidades a:hover,
+ul.fontes a:hover {
+    color: rgb(160, 105, 95);
 }
-
 @keyframes slideInLeft {
   from {
     opacity: 0;
@@ -119,7 +121,7 @@ img {
 }
 
 footer {
-    background-color: rgb(49, 26, 11);
+    background-color: rgb(83, 45, 19);
     border-radius: 15px;
     border-color: aquamarine;
     width: 80%;
@@ -127,4 +129,6 @@ footer {
     margin: 0 auto;
     font-family: Original Surfer;
     color: #ebccc4;
+    letter-spacing: 1px;
 }
+
