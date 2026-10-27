@@ -133,3 +133,8 @@ footer {
     letter-spacing: 1px;
 }
 
+main {
+    min-width: 320px;
+    max-width: 740px;
+    margin: auto;
+}
